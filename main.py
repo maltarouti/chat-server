@@ -13,7 +13,8 @@ class ChatServer:
         websocket.id = str(uuid4()).split("-")[1]
         for connection in self.connections:
             if websocket != connection:
-                await connection.send(f"User {websocket.id} connected to the chat!") # noqa
+                await connection.send(f"User {websocket.id}"
+                                      " connected to the chat!")
 
         await websocket.send("Connected! Have fun chatting!")
         self.connections.add(websocket)
