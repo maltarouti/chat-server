@@ -1,5 +1,5 @@
 # chat-server
-A very simple python TCP chat server
+A very simple python TCP chat server. This was created to apply the pushing model
 
 
 # How to run it?
