@@ -4,7 +4,7 @@ A very simple python TCP chat server. This was created to apply the pushing mode
 
 # How to run it?
 * Install python in your machine
-* Install Python libraries using `pip install requirements.txt`
+* Install Python libraries using `pip install -r requirements.txt`
 * Run the program by using `python main.py`
 * Use `localhost:5555` to connect using javascript in your browser console by typing the following:
 
